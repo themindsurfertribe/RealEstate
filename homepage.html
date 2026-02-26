@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Playa Elite Realty: Luxury Vacation Rentals, Riviera Maya Property Management, and Playa del Carmen Real Estate. Own your piece of paradise today.">
+    <meta name="keywords" content="Luxury Vacation Rentals, Riviera Maya Property Management, Playa del Carmen Real Estate, Playacar, Aldea Zama">
+    <title>Playa Elite Realty | Luxury Playa del Carmen Real Estate</title>
+    <style>
+        :root {
+            --primary: #1e293b;
+            --accent: #d4af37;
+            --light: #f8fafc;
+            --text: #334155;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--text); background-color: var(--light); }
+        
+        /* Navigation */
+        nav { background: var(--primary); padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; }
+        .logo { color: var(--accent); font-size: 1.5rem; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; }
+        .nav-links a { color: white; text-decoration: none; margin-left: 20px; font-size: 0.9rem; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--accent); }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(30, 41, 59, 0.8), rgba(30, 41, 59, 0.8)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80');
+            background-size: cover; background-position: center;
+            height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white; padding: 0 20px;
+        }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 1rem; color: var(--accent); }
+        .hero p { font-size: 1.25rem; margin-bottom: 2rem; max-width: 600px; }
+        .btn { background: var(--accent); color: var(--primary); padding: 1rem 2.5rem; text-decoration: none; font-weight: bold; border-radius: 4px; transition: transform 0.3s; }
+        .btn:hover { transform: scale(1.05); }
+
+        /* Sections */
+        section { padding: 5rem 10%; }
+        h2 { text-align: center; font-size: 2.5rem; color: var(--primary); margin-bottom: 3rem; }
+        h2::after { content: ''; display: block; width: 60px; height: 3px; background: var(--accent); margin: 10px auto; }
+
+        /* Featured Areas Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+        .card { background: white; border-bottom: 4px solid var(--accent); padding: 2rem; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .card h3 { color: var(--primary); margin-bottom: 1rem; }
+
+        /* Services */
+        .services-bg { background: var(--primary); color: white; }
+        .services-bg h2 { color: white; }
+        .service-item { padding: 1.5rem; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; }
+        .service-item h3 { color: var(--accent); margin-bottom: 0.5rem; }
+
+        /* SEO Content */
+        .seo-content { max-width: 800px; margin: 0 auto; text-align: justify; }
+
+        /* Contact */
+        .contact { text-align: center; background: white; }
+        .contact-links a { display: inline-block; margin: 1rem; font-size: 1.2rem; color: var(--primary); text-decoration: none; font-weight: bold; border: 2px solid var(--primary); padding: 0.8rem 1.5rem; border-radius: 50px; transition: all 0.3s; }
+        .contact-links a:hover { background: var(--primary); color: white; }
+
+        /* Footer */
+        footer { background: #0f172a; color: #94a3b8; text-align: center; padding: 2rem; font-size: 0.8rem; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2rem; }
+            section { padding: 3rem 5%; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Playa Elite</div>
+        <div class="nav-links">
+            <a href="#areas">Areas</a>
+            <a href="#services">Services</a>
+            <a href="#why-playa">Why Playa</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Own Your Piece of Paradise</h1>
+        <p>Exclusive Luxury Vacation Rentals and Premium Real Estate Opportunities in the heart of Playa del Carmen.</p>
+        <a href="#areas" class="btn">Browse Listings</a>
+    </header>
+
+    <section id="areas">
+        <h2>Featured Areas</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Playacar</h3>
+                <p>Private gated community with stunning beaches and world-class golf courses.</p>
+            </div>
+            <div class="card">
+                <h3>Aldea Zama</h3>
+                <p>The most prestigious eco-chic residential area connecting the city to the beach.</p>
+            </div>
+            <div class="card">
+                <h3>North Playa</h3>
+                <p>Modern luxury living near the vibrant 5th Avenue and pristine beach clubs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-bg">
+        <h2>Our Services</h2>
+        <div class="grid">
+            <div class="service-item">
+                <h3>Buyer Representation</h3>
+                <p>Expert guidance through the Mexican real estate acquisition process for international investors.</p>
+            </div>
+            <div class="service-item">
+                <h3>Property Management</h3>
+                <p>Full-service Riviera Maya property management to maximize your rental income and asset value.</p>
+            </div>
+            <div class="service-item">
+                <h3>ROI Consulting</h3>
+                <p>Strategic data-driven analysis to ensure your luxury vacation rental yields maximum returns.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-playa">
+        <h2>Why Playa?</h2>
+        <div class="seo-content">
+            <p>
+                Playa del Carmen has transformed from a sleepy fishing village into the crown jewel of the Riviera Maya, making it a premier destination for global real estate investment. With a consistent annual growth rate and a booming tourism sector, owning property here is more than a lifestyle choice—it is a sophisticated financial move. The unique blend of cosmopolitan amenities, turquoise Caribbean waters, and rich Mayan culture creates an unparalleled demand for luxury vacation rentals. 
+            </p>
+            <p style="margin-top: 1rem;">
+                As the infrastructure continues to expand with the Mayan Train and new international flight routes, property values in key zones like Playacar and Aldea Zama are projected to see significant appreciation. Playa Elite Realty provides the local expertise required to navigate this fast-paced market, offering dedicated buyer representation and property management services that allow you to enjoy your piece of paradise while your investment works for you.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Connect With Us</h2>
+        <p>Ready to start your journey in Playa del Carmen?</p>
+        <div class="contact-links">
+            <a href="tel:+529840000000">📞 +52 984 000 0000</a>
+            <a href="mailto:bookings@playadream.com">✉️ bookings@playadream.com</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 Playa Elite Realty | Luxury Playa del Carmen Real Estate Specialists. All rights reserved.
+    </footer>
+
+</body>
+</html>
