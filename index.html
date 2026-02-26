@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Playa Elite Realty: High-end luxury real estate investment in the Mayan Riviera.">
-    <title>Playa Elite Realty | The Art of the Asset</title>
+    <meta name="description" content="Playa Elite Realty | Private Client Group. Strategic acquisition of high-performance Mexican real estate assets.">
+    <title>Playa Elite Realty | Private Client Portfolio</title>
     
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
     
     <style>
         :root {
-            --primary: #0a0f1a;
+            --primary: #080c14;
             --accent: #d4af37;
-            --glass: rgba(255, 255, 255, 0.02);
-            --glass-border: rgba(255, 255, 255, 0.07);
-            --text-main: #f8fafc;
+            --glass: rgba(255, 255, 255, 0.015);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --text-main: #f1f5f9;
             --text-dim: #94a3b8;
-            --transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; scroll-behavior: smooth; }
@@ -25,114 +25,114 @@
             font-family: 'Montserrat', sans-serif; 
             background: var(--primary);
             color: var(--text-main);
-            line-height: 1.8;
+            line-height: 1.9;
             overflow-x: hidden;
         }
 
-        /* Architectural Headings */
         h1, h2, h3, .logo { font-family: 'Playfair Display', serif; font-weight: 400; }
-
-        /* Typography Refinement */
-        p { font-weight: 300; letter-spacing: 0.02em; }
         
-        /* Layout Grid System */
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+        .container { max-width: 1300px; margin: 0 auto; padding: 0 3rem; }
 
         nav { 
-            background: rgba(10, 15, 26, 0.95);
-            padding: 1.8rem 5%;
+            background: rgba(8, 12, 20, 0.98);
+            padding: 2rem 5%;
             display: flex; justify-content: space-between; align-items: center;
             position: fixed; width: 100%; top: 0; z-index: 1000;
             border-bottom: 1px solid var(--glass-border);
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(20px);
         }
 
-        .logo { color: var(--accent); font-size: 1.3rem; letter-spacing: 5px; text-transform: uppercase; }
+        .logo { color: var(--accent); font-size: 1.2rem; letter-spacing: 6px; text-transform: uppercase; }
 
-        /* Hero: The Hook */
+        /* Hero */
         header.hero {
             height: 100vh;
             display: flex; flex-direction: column; justify-content: center; align-items: center;
             text-align: center;
-            background: linear-gradient(rgba(10, 15, 26, 0.5), rgba(10, 15, 26, 0.8)), 
+            background: linear-gradient(rgba(8, 12, 20, 0.4), rgba(8, 12, 20, 0.9)), 
                         url('https://images.unsplash.com/photo-1512918766671-56001ef0369b?auto=format&fit=crop&w=1920&q=80');
             background-size: cover; background-position: center;
             padding: 0 10%;
         }
 
-        .hero h1 { font-size: clamp(3rem, 10vw, 6rem); font-style: italic; color: var(--accent); margin-bottom: 0.5rem; }
-        .hero p { font-size: 0.9rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 5px; margin-bottom: 3rem; }
+        .hero h1 { font-size: clamp(3.5rem, 9vw, 6.5rem); font-style: italic; color: var(--accent); margin-bottom: 0.8rem; }
+        .hero p { font-size: 0.8rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 6px; margin-bottom: 4rem; }
 
-        /* Sections Styling */
-        section { padding: 12rem 0; }
-        .section-title { text-align: center; margin-bottom: 6rem; }
-        .section-title h2 { font-size: 3.5rem; color: var(--accent); margin-bottom: 1rem; }
-        .section-title span { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 4px; color: var(--text-dim); }
+        /* Sections */
+        section { padding: 14rem 0; }
+        .section-header { text-align: center; margin-bottom: 8rem; }
+        .section-header span { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 5px; color: var(--accent); display: block; margin-bottom: 1.5rem; }
+        .section-header h2 { font-size: 3.8rem; color: var(--text-main); letter-spacing: -1px; }
 
-        /* Lifestyle Gallery: Balanced Alignment */
-        .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
-        .gallery-item { height: 550px; position: relative; overflow: hidden; border: 1px solid var(--glass-border); }
-        .gallery-item img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(40%); transition: var(--transition); }
-        .gallery-item:hover img { transform: scale(1.08); filter: grayscale(0%); }
-        .gallery-label { position: absolute; bottom: 40px; left: 40px; font-family: 'Playfair Display'; font-size: 1.8rem; font-style: italic; }
+        /* Gallery */
+        .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+        .gallery-item { height: 600px; position: relative; overflow: hidden; border: 1px solid var(--glass-border); }
+        .gallery-item img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%); transition: var(--transition); }
+        .gallery-item:hover img { transform: scale(1.05); filter: grayscale(20%); }
+        .gallery-label { position: absolute; bottom: 50px; left: 50px; font-family: 'Playfair Display'; font-size: 2rem; font-style: italic; color: #fff; }
 
-        /* Roadmap: Clean Symmetry */
-        .roadmap { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3rem; }
-        .step { text-align: center; }
-        .step-num { font-family: 'Playfair Display'; font-size: 2.5rem; color: var(--accent); opacity: 0.4; margin-bottom: 1.5rem; }
-        .step h3 { font-size: 1.2rem; letter-spacing: 1px; margin-bottom: 1rem; }
-        .step p { font-size: 0.85rem; color: var(--text-dim); }
+        /* Protocol Grid */
+        .protocol-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4rem; }
+        .protocol-step { border-left: 1px solid var(--glass-border); padding-left: 2rem; }
+        .protocol-step span { font-family: 'Playfair Display'; font-size: 1.5rem; color: var(--accent); display: block; margin-bottom: 2rem; }
+        .protocol-step h3 { font-size: 1.3rem; margin-bottom: 1.2rem; letter-spacing: 1px; }
+        .protocol-step p { font-size: 0.85rem; color: var(--text-dim); font-weight: 300; }
 
-        /* Resources: Masterful Spacing */
-        .guide-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
-        .glass-card { 
-            background: var(--glass);
-            border: 1px solid var(--glass-border);
-            padding: 4rem;
-            backdrop-filter: blur(20px);
+        /* Financial Intelligence Grid */
+        .intelligence-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2.5rem; }
+        .intel-card { 
+            background: var(--glass); 
+            border: 1px solid var(--glass-border); 
+            padding: 5rem; 
+            backdrop-filter: blur(30px);
             transition: var(--transition);
         }
-        .glass-card:hover { border-color: var(--accent); background: rgba(255,255,255,0.04); }
-        .guide-item h3 { font-style: italic; font-size: 1.6rem; color: var(--accent); margin-bottom: 1.5rem; }
-        .guide-item p { color: var(--text-dim); font-size: 0.95rem; line-height: 2; }
+        .intel-card:hover { border-color: var(--accent); background: rgba(255,255,255,0.03); }
+        .intel-card h3 { font-family: 'Playfair Display'; font-style: italic; font-size: 1.8rem; color: var(--accent); margin-bottom: 2rem; }
+        .intel-card p { font-size: 0.95rem; color: var(--text-dim); line-height: 2.2; }
 
-        /* Investment Callout */
-        .investment-callout { background: #070b14; padding: 10rem 2rem; text-align: center; border-top: 1px solid var(--glass-border); }
-        .investment-callout .roi { font-family: 'Playfair Display'; font-size: 5rem; color: var(--accent); display: block; margin: 2rem 0; }
+        /* Performance Callout */
+        .performance { background: #04060a; padding: 12rem 0; text-align: center; border-top: 1px solid var(--glass-border); }
+        .roi-stat { font-family: 'Playfair Display'; font-size: 6rem; color: var(--accent); display: block; margin: 2.5rem 0; font-weight: 600; }
 
-        /* Interactive Elements */
+        /* Testimonials (Private Client Style) */
+        .testimonials { display: grid; grid-template-columns: repeat(2, 1fr); gap: 3rem; margin-top: 4rem; }
+        .testimonial-card { padding: 4rem; border-bottom: 1px solid var(--glass-border); }
+        .testimonial-card p { font-family: 'Playfair Display'; font-size: 1.4rem; font-style: italic; color: var(--text-main); margin-bottom: 2rem; }
+        .client-id { font-size: 0.7rem; letter-spacing: 4px; color: var(--accent); text-transform: uppercase; }
+
+        /* Actions */
         .btn { 
             display: inline-block;
-            padding: 1.5rem 4rem; 
+            padding: 1.8rem 4.5rem; 
             border: 1px solid var(--accent); 
             color: var(--accent); 
             text-decoration: none; 
-            font-size: 0.75rem; 
+            font-size: 0.7rem; 
             text-transform: uppercase; 
-            letter-spacing: 4px; 
+            letter-spacing: 5px; 
             transition: var(--transition);
         }
         .btn:hover { background: var(--accent); color: var(--primary); }
 
-        .wa-float { 
-            position: fixed; bottom: 50px; right: 50px; 
-            background: rgba(37, 211, 102, 0.1); 
-            backdrop-filter: blur(15px); 
-            color: white; padding: 1.2rem 2.5rem; 
-            border: 1px solid rgba(255,255,255,0.1); 
-            text-decoration: none; font-size: 0.7rem; letter-spacing: 3px; z-index: 1000; 
+        .wa-concierge { 
+            position: fixed; bottom: 60px; right: 60px; 
+            background: rgba(255,255,255,0.03); 
+            backdrop-filter: blur(20px); 
+            color: var(--accent); padding: 1.5rem 3rem; 
+            border: 1px solid var(--accent); 
+            text-decoration: none; font-size: 0.7rem; letter-spacing: 4px; z-index: 1000; 
             transition: var(--transition);
         }
-        .wa-float:hover { background: #25d366; border-color: #25d366; transform: translateY(-5px); }
+        .wa-concierge:hover { background: var(--accent); color: var(--primary); }
 
-        footer { padding: 8rem 0; text-align: center; background: #05080f; border-top: 1px solid var(--glass-border); }
-        .footer-tag { font-size: 0.7rem; letter-spacing: 6px; color: #475569; text-transform: uppercase; }
+        footer { padding: 10rem 0; text-align: center; background: #020305; border-top: 1px solid var(--glass-border); }
+        .copyright { font-size: 0.65rem; letter-spacing: 6px; color: #334155; text-transform: uppercase; }
 
-        /* Mobile Optimization */
         @media (max-width: 1024px) {
-            .gallery-grid, .roadmap, .guide-grid { grid-template-columns: 1fr; }
-            section { padding: 6rem 0; }
+            .gallery-grid, .protocol-grid, .intelligence-grid, .testimonials { grid-template-columns: 1fr; }
             .hero h1 { font-size: 4rem; }
+            section { padding: 8rem 0; }
         }
     </style>
 </head>
@@ -140,118 +140,153 @@
 
     <nav>
         <div class="logo">Playa Elite</div>
-        <div class="footer-tag" style="color: var(--text-dim);">Privé Relations</div>
+        <div class="copyright" style="color: var(--text-dim);">Private Client Group</div>
     </nav>
 
     <header class="hero">
-        <p>A Curation of the Riviera Maya</p>
-        <h1>Intelligence in Land</h1>
-        <a href="#roadmap" class="btn">Discover Portfolio</a>
+        <p>Strategic Asset Management</p>
+        <h1>Acquisition of Rare Land</h1>
+        <a href="#protocol" class="btn">Enter Portfolio</a>
     </header>
 
     <div class="container">
         
-        <section id="lifestyle">
-            <div class="section-title">
-                <span>The Experience</span>
-                <h2>Tropical Sanctuaries</h2>
+        <section id="assets">
+            <div class="section-header">
+                <span>The Curation</span>
+                <h2>Portfolio Highlights</h2>
             </div>
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Coast">
-                    <div class="gallery-label">Coastal Solitude</div>
+                    <div class="gallery-label">Coastal Reserves</div>
                 </div>
                 <div class="gallery-item">
                     <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80" alt="Zen">
-                    <div class="gallery-label">Eco-Architectural Zen</div>
+                    <div class="gallery-label">Ecological Estates</div>
                 </div>
                 <div class="gallery-item">
                     <img src="https://images.unsplash.com/photo-1560448204-61dc36dc98c8?auto=format&fit=crop&w=800&q=80" alt="Villa">
-                    <div class="gallery-label">Curated Interiors</div>
+                    <div class="gallery-label">Private Sanctuaries</div>
                 </div>
             </div>
         </section>
 
-        <section id="roadmap">
-            <div class="section-title">
-                <span>The Protocol</span>
-                <h2>The Roadmap</h2>
+        <section id="protocol">
+            <div class="section-header">
+                <span>The Process</span>
+                <h2>The Acquisition Protocol</h2>
             </div>
-            <div class="roadmap">
-                <div class="step">
-                    <div class="step-num">I</div>
-                    <h3>Consultation</h3>
-                    <p>Defining your vision: Wealth preservation or lifestyle pursuit.</p>
+            <div class="protocol-grid">
+                <div class="protocol-step">
+                    <span>01</span>
+                    <h3>Fiscal Alignment</h3>
+                    <p>Strategic definition of the investment horizon: Diversification vs. Wealth Preservation.</p>
                 </div>
-                <div class="step">
-                    <div class="step-num">II</div>
-                    <h3>Vetting</h3>
-                    <p>Legal and physical due diligence through elite Mexican channels.</p>
+                <div class="protocol-step">
+                    <span>02</span>
+                    <h3>Legal Scrutiny</h3>
+                    <p>Rigorous multi-layer due diligence of title history and physical land constraints.</p>
                 </div>
-                <div class="step">
-                    <div class="step-num">III</div>
-                    <h3>Structuring</h3>
-                    <p>Sophisticated Fideicomiso setup for absolute legal security.</p>
+                <div class="protocol-step">
+                    <span>03</span>
+                    <h3>Fiduciary Structure</h3>
+                    <p>Sophisticated implementation of the Fideicomiso trust for sovereign legal protection.</p>
                 </div>
-                <div class="step">
-                    <div class="step-num">IV</div>
-                    <h3>Execution</h3>
-                    <p>Seamless title transfer and key handover at the Notario.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="guide">
-            <div class="section-title">
-                <span>Investor Intelligence</span>
-                <h2>Foreigner's Gold Guide</h2>
-            </div>
-            <div class="guide-grid">
-                <div class="glass-card guide-item">
-                    <h3>Fideicomiso</h3>
-                    <p>The definitive bank trust structure. It ensures foreigners hold identical property rights to citizens, offering full legal title within the restricted coastal zones.</p>
-                </div>
-                <div class="glass-card guide-item">
-                    <h3>The Notario Público</h3>
-                    <p>A specialized government-appointed official. The Notario is the guardian of the deed, responsible for verifying every legal detail of the transaction.</p>
-                </div>
-                <div class="glass-card guide-item">
-                    <h3>Fiscal Strategy</h3>
-                    <p>The accumulation of 'Facturas' (tax-compliant receipts) for property upgrades is your most vital tool for tax efficiency during asset liquidation.</p>
-                </div>
-                <div class="glass-card guide-item">
-                    <h3>Escrow Security</h3>
-                    <p>We mandate the use of third-party international escrow services. Your capital remains protected in the US until every contractual obligation is verified.</p>
+                <div class="protocol-step">
+                    <span>04</span>
+                    <h3>Asset Activation</h3>
+                    <p>Title transfer via the Notarial Protocol and integration into our white-glove management.</p>
                 </div>
             </div>
         </section>
 
-    </div> <div class="investment-callout">
+        <section id="intelligence">
+            <div class="section-header">
+                <span>Regulatory Briefing</span>
+                <h2>Intelligence for Foreign Capital</h2>
+            </div>
+            <div class="intelligence-grid">
+                <div class="intel-card">
+                    <h3>Legal Sovereignty</h3>
+                    <p>Foreigners acquire 100% of property rights through the Fideicomiso—a state-sanctioned bank trust. This structure grants irrevocable ownership and the right to lease, sell, or bequeath the asset.</p>
+                </div>
+                <div class="intel-card">
+                    <h3>Capital Outlay Protocol</h3>
+                    <p>A provision of 5-7% of the total acquisition value is standard to cover the statutory taxes, high-level Notarial fees, and trust registration requirements.</p>
+                </div>
+                <div class="intel-card">
+                    <h3>Tax Mitigation Strategy</h3>
+                    <p>Maintaining a record of 'Facturas' (tax-compliant receipts) is the primary defensive strategy against future Capital Gains liabilities during asset liquidation.</p>
+                </div>
+                <div class="intel-card">
+                    <h3>The Notarial Protocol</h3>
+                    <p>In Mexico, the Notario Público is a high-ranking state official. Their intervention serves as the ultimate guarantee that the asset is transferred with zero encumbrances.</p>
+                </div>
+                <div class="intel-card">
+                    <h3>Yield Performance</h3>
+                    <p>Current net yields in high-barrier corridors such as Aldea Zama and Playacar continue to outperform traditional global luxury benchmarks.</p>
+                </div>
+                <div class="intel-card">
+                    <h3>Capital Custody</h3>
+                    <p>We mandate the utilization of US-based escrow accounts for all international transactions. Capital is only disbursed upon full Notarial verification of title.</p>
+                </div>
+                <div class="intel-card">
+                    <h3>Sovereign Infrastructure</h3>
+                    <p>The Mayan Train and Tulum International Airport represent a multi-billion dollar state investment, driving aggressive asset appreciation in key tourism nodes.</p>
+                </div>
+                <div class="intel-card">
+                    <h3>Fiscal Residency</h3>
+                    <p>Securing Temporary or Permanent Residency status offers significant logistical advantages, including optimized utility rates and streamlined Mexican banking access.</p>
+                </div>
+            </div>
+        </section>
+
+    </div> <div class="performance">
         <div class="container">
-            <div class="section-title">
-                <span>The Performance</span>
-                <h2>Market Outlook</h2>
+            <div class="section-header">
+                <span>Asset Performance</span>
+                <h2>Market Intelligence</h2>
             </div>
-            <p style="color: var(--text-dim); text-transform: uppercase; letter-spacing: 3px;">Projected Yield in Premium Corridors</p>
-            <span class="roi">12.4% NET</span>
-            <p style="max-width: 600px; margin: 0 auto; color: var(--text-dim);">This benchmark represents high-occupancy penthouse portfolios within the Aldea Zama eco-chic corridor.</p>
+            <p style="color: var(--text-dim); text-transform: uppercase; letter-spacing: 5px; font-size: 0.7rem;">Verified Portfolio Net ROI</p>
+            <span class="roi-stat">12.4%</span>
+            <p style="max-width: 650px; margin: 0 auto; color: var(--text-dim); font-size: 0.9rem;">Calculated based on managed high-occupancy penthouse assets within the core Playa del Carmen corridors.</p>
         </div>
     </div>
 
-    <section id="contact" style="background: var(--primary);">
-        <div class="container" style="text-align: center;">
-            <div class="glass-card" style="border-color: var(--accent); padding: 6rem 2rem;">
-                <h2 style="font-size: 3rem; margin-bottom: 2rem;">Discreet Acquisition</h2>
-                <p style="color: var(--text-dim); margin-bottom: 4rem;">For private consultations regarding the Riviera Maya luxury portfolio.</p>
-                <a href="mailto:bookings@playadream.com" class="btn">Connect Privately</a>
+    <section id="discretion">
+        <div class="container">
+            <div class="section-header">
+                <span>Confidentiality</span>
+                <h2>Private Client Success</h2>
+            </div>
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <p>"A level of fiscal transparency that is rare in the Mexican market. Our capital was handled with absolute precision."</p>
+                    <span class="client-id">— THE W. FAMILY, GENEVA</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The legal vetting process was exhaustive. Playa Elite successfully navigated a complex multi-trust acquisition for our family office."</p>
+                    <span class="client-id">— THE M. GROUP, NEW YORK</span>
+                </div>
             </div>
         </div>
     </section>
 
-    <a href="https://wa.me/529840000000" class="wa-float" target="_blank">WHATSAPP CONCIERGE</a>
+    <section id="contact" style="background: var(--primary);">
+        <div class="container" style="text-align: center;">
+            <div class="intel-card" style="border-color: var(--accent); padding: 8rem 2rem; max-width: 900px; margin: 0 auto;">
+                <h2 style="font-size: 3rem; margin-bottom: 2rem; letter-spacing: -1px;">Secure the Asset</h2>
+                <p style="color: var(--text-dim); margin-bottom: 5rem; letter-spacing: 1px;">For private inquiries regarding our curated Riviera Maya portfolio.</p>
+                <a href="mailto:bookings@playadream.com" class="btn">Initiate Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/529840000000" class="wa-concierge" target="_blank">WHATSAPP CONCIERGE</a>
 
     <footer>
-        <div class="footer-tag">© 2026 Playa Elite Realty | Luxury Property Authority</div>
+        <div class="copyright">© 2026 PLAYA ELITE REALTY | PRIVATE CLIENT GROUP | LUXURY AUTHORITY</div>
     </footer>
 
 </body>
